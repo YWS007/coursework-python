@@ -1,0 +1,13 @@
+Kate,f,02/02/93,0126325475,kl,kate123@gmail.com,kate123,1234567
+Jack Ma,m,17/10/02,0111552665,Seremban,jack1710@gmail.com,jack456,kdf12345
+Mun Long,m,10/03/98,0112666457,Selangor,long98@hotmail.com,long667,asd78hj
+Shanice Lim,f,22/07/93,0129555688,Kuala Lumpur,shanice123@gmail.com,lim123,123klf4
+Bob Tan,m,25/07/93,0111002558,Perak,bob25@gmail.com,bob1234,987654ij1
+Olivia Ong,f,19/03/00,0127755563,Johor,olivia00@gmail.com,olivia1234,qwerty23
+Mei Ling,f,02/01/01,0127755563,Kuala Lumpur,meiling23@gmail.com,meiling23,123jkl85
+Jun Wei,m,26/03/98,0118845521,Johor,junwei12@gmail.com,junwei98,123jkl85
+May Tan,f,03/02/99,01293359987,Kuala Lumpur,may99@gmail.com,may99,thu54ed5
+April Song,f,05/05/93,012151236,Kuala Lumpur,april055@hotmail.com,april055,56456pqw
+John Ang,m,02/08/01,0116644855,Selangor,johnang88@gmail.com,john567,filw568w
+Chris,m,02/08/99,0128884556,Kuala Lumpur,chris999@gmail.com,chris45,456iujh
+Jack,m,1/1/20,0129999999,KL,jack@gmail.com,jack123,1234567

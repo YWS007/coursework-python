@@ -1,0 +1,23 @@
+jack456,Aneron,20.0,2,40.0
+jack456,Hurix's 600,7.3,2,14.6
+jack456,Tiger Mosquito Spray,14.2,1,14.2
+john567,Panadol,8.8,1,8.8
+john567,Panadol,8.8,1,8.8
+john567,Panadol,8.8,1,8.8
+long667,Panadol,8.8,2,17.6
+long667,Zentel,16.5,2,33.0
+kate123,Hurix's 1000,11.2,3,33.599999999999994
+kate123,Hurix's 600,7.3,3,21.9
+kate123,Tiger Mosquito Spray,14.2,1,14.2
+lim123,Sunward Acid,12.45,5,62.25
+bob1234,Panadol,8.8,1,8.8
+olivia1234,Teck Aun Chi Kit Pills,12.4,2,24.8
+olivia1234,Huri'x Phlegm&Cough Herbs,7.2,2,14.4
+april055,Aneron,20.0,2,40.0
+april055,Zentel,16.5,2,33.0
+long667,Panadol,8.8,2,17.6
+long667,Zentel,16.5,2,33.0
+tan1,Panadol,8.8,2,17.6
+tan1,Panadol,8.8,2,17.6
+jack123,Zentel,16.5,2,33.0
+jack123,Panadol,8.8,2,17.6

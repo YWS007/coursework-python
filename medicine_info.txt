@@ -1,0 +1,11 @@
+Panadol,02/2024,8.8,Relieves pain and fever,GSK group
+Zentel,05/2024,16.5,Kills worm inside the stomach,Glaxo Smithkline
+Aneron,02/2024,20.0,Nausea Treatment,Japan-Osaka
+Teck Aun Chi Kit Pills,10/2026,12.4,Traditionally used for stomach,Texk Aun Medical Factory S/B
+Hurix's 1000,12/2023,11.2,Relieve fever cold,Jin Bin Group
+Hurix's 600,02/2023,7.3,Relieve to flu,Jin Bin Group
+Huri'x Phlegm&Cough Herbs,12/2023,7.2,Reducing phlegm and relief of cough,Jin Bin Group
+Sunward Acid,10/2025,12.45,Maintenance dose of folic acid in pregnancy,Sunward Intelligent Equipment Group
+Tiger Mosquito Spray,08/2024,14.2,Wards off mosquitoes and insect bites,Haw Par Corporation Limited
+
+j,12,12.0,hi,hj

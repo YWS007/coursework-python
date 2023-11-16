@@ -1,0 +1,28 @@
+﻿p{
+	text-indent:2em;
+}
+
+.pic{
+	text-align:center;
+}
+
+.p.background {
+    padding: 20px 30px;
+
+}
+
+.has-very-dark-gray-color.has-very-dark-gray-color {
+    color: #313131;
+}
+
+.has-pale-cyan-blue-background-color.has-pale-cyan-blue-background-color {
+    background-color: #8ed1fc;
+}
+
+.has-medium-font-size{
+	font-size:18px;
+}
+
+.blue-color{
+	color:#0693e3;
+}

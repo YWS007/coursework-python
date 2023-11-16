@@ -1,0 +1,61 @@
+﻿/* committee.css */
+
+.flexcards{ /* main wrapper for cards layout */
+	overflow: hidden;
+	/*margin: auto;*/
+	margin-bottom: 1em;
+	width: 100%;
+	height:auto;
+}
+
+.flexcards .profiles{ /* individual card CSS */
+    float:left;
+    position:relative;
+    /*padding: 20px;*/
+    height: 130px;
+    /*width: 40%;*/
+    max-width: 240px;  /*max width of each card*/ 
+    min-width: 240px; /* min width of each card */
+    margin-top: 20px; 
+    font-size: 14px;
+	cursor: pointer;
+    background-color:lavender;
+    margin-right:20px;
+}
+
+.flexcards .profiles h3{
+	margin: 0;
+}
+
+.flexcards .profiles img{
+ border-radius: 50%;
+float: left;
+margin:15px 10px;
+/*margin-right: 15px;*/
+box-shadow: 2px 2px 5px gray;
+height:85px;
+width: 90px;
+
+}
+
+.openprofile{ /*class added to contents of 1st demo when they are open*/
+    background: yellow;
+    box-shadow: 0 5px 5px rgba(0,0,0, .3);
+    border-bottom: 4px solid #660066;
+   }
+
+div.details{ /* style for 1st demo expanded content */
+	margin-top: 2em;
+	line-height: 2;
+	border-top: 5px solid green;
+	font-size: 110%;
+}
+
+div.details img{ /* style for 1st demo expanded content */
+	float: right;
+	margin: 0 0 10px 10px;
+	padding-left: 10px;
+	width: 160px;
+	height: 160px;
+	border-left: 1px solid gray;
+}

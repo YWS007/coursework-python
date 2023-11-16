@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "master.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+<!-- #BeginEditable "doctitle" -->
+<title>APU Orchestra Band</title>
+<!doctype html>
+<link rel="stylesheet" href="flexcardaccordion.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="ddaccordion.js"></script>
+
+<script type="text/javascript"></script>
+
+<script type="text/javascript">
+
+//Initialize first demo:
+ddaccordion.init({
+	headerclass: "profiles", //Shared CSS class name of headers group
+	contentclass: "details", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	scrolltoheader: false, //scroll to header each time after it's been expanded by the user?
+	scrolltocontent: true, //scroll to expanded content each time after it's been expanded by the user?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["", "openprofile"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["none", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+</script>
+<link href="flexcardaccordion.css" rel="stylesheet" type="text/css" />
+<!-- #EndEditable -->
+<link href="master.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="header">
+		APU Orchestra Band
+	</div>
+	
+	<!-- menu -->
+	<div class="nav">
+		<ul>
+			<li><a href="default.html">Home</a></li>
+			<li><a href="aboutus.html">About Us <i class="fas fa-caret-down"></i></a>
+				<div class="dropdown_menu">
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="structure.html">Structure</a></li>
+						<li><a href="committee.html">Committee</a></li>
+					</ul>
+				</div>
+			</li>
+				
+			<li><a href="activities.html">Activities And Events <i class="fas fa-caret-down"></i></a>
+				<div class="dropdown_menu">
+					<ul>
+						<li><a href="societyactivities.html">Society Activities</a></li>
+						<li><a href="offlineevents.html">Offline Events</a></li>
+						<li><a href="onlineevents.html">Online Events</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="musicknowledge.html">Music Knowledge <i class="fas fa-caret-down"></i></a>
+				<div class="dropdown_menu">
+					<ul>
+						<li><a href="music.html">Music</a></li>
+						<li><a href="instrument.html">Instrument</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="goals.html">Goals</a></li>
+			<li><a href="achievement.html">Achievement</a></li>
+			<li><a href="joinus.html">Join Us</a></li>
+		</ul>
+	</div>
+	
+	<!-- content -->
+	<div class="content">
+		<div class="page-title">
+		
+		<!-- #BeginEditable "doctitle" -->
+			Committee
+		<!-- #EndEditable -->
+		</div><br/>
+		<div class="page-content">
+		<!-- #BeginEditable "doctitle" -->
+		
+
+<!-- Cards Layout Section (5 cards in demo) -->
+
+<div class="flexcards" id="flexcards1">
+	<h2 >Conductors</h2>
+	<div class="profiles" style="background-color:#DDB57A">
+		<img alt="" src="conductor1.jpg" /> <h3>Dr Gu Fang Yi</h3> Conductor
+	</div>
+		<div class="profiles" style="background-color:#DDB57A">
+		<img  alt="" src="conductor2.jpg" /> <h3>Fan Yi Long</h3> President	
+	</div>
+<div/>
+
+<div class="flexcards" id="flexcards1">
+	<h2 style="margin-top:40px;">Administrative Staff</h2>
+	<div class="profiles">
+		<img  alt="" src="president.jpg" /> <h3>Josephine Lee Ru Ru</h3> President	
+	</div>
+	<div class="profiles">
+		<img  alt="" src="president2.jpg" /> <h3>Jaden Ow</h3> Vise President	
+	</div>
+
+		
+	<div class="profiles">
+		<img  alt="" src="treasurer.jpg" /> <h3>Kang Yong Ling</h3> Treasurer
+	</div>
+
+	<div class="profiles">
+		<img alt="" src="lesson.jpg" /> <h3>Anne Leong Ai Ling</h3> Lesson Planner 	
+	</div>
+	
+	<div class="profiles">
+		<img alt="" src="general.jpg" /> <h3>Mark Tan Teck Huat</h3> General Affair
+	</div>
+	
+	<div class="profiles">
+		<img alt="" src="multimedia.jpg" /> <h3>Joanne Lim Li Jing</h3> Multimedia
+	</div>
+
+
+</div>
+
+<!-- Corresponding Contents Section (5 content DIVs in demo) -->
+
+<div class="details">
+	<p><img alt="" src="conductor1.jpg" />Dr Gu Fang Yi (born January 21, 1993) has composed many masterpieces for symphony orchestras which were performed by bigger orchestras such as orchestras from Spain, the National Symphony Orchestra and the Kuala Lumpur Symphony Orchestra. He works as Freelance APU Orchestra Band Coah(2005-Present).</p>
+</div>
+
+<div class="details">
+	<p><img alt="" src="conductor2.jpg" />Fan Yi Long is a graduate with first-class honours from UCSI University’s Institute of Music, he organised and led the APU University Orchestra Tour in 2018 and conducted the orchestra during a showcase as well.</p>
+</div>
+
+
+<div class="details">
+	<p><img alt="" src="president.jpg" />Josephine is responsible for setting and monitoring the goals of the club, running club meetings, appointing committee chairs and delegating tasks as necessary, recruiting, training and retaining members and maintaining regular communication.</p>
+</div>
+<div class="details">
+	<p><img alt="" src="president2.jpg" />• Ensuring the club has a clearly defined purpose, vision and set of values to guide decision-making, club culture and behavior.  </p>
+	<p> • Work with the Treasurer to implement strong financial controls to protect the cash and assets of the clubs. </p>
+</div>
+
+<div class="details">
+	<p><img alt="" src="treasurer.jpg" />Yong Ling is responsible for the managing the flow of money into the club and for allocating and recording how that money is spent to run the club.</p>
+</div>
+
+<div class="details">
+	<p><img alt="" src="lesson.jpg" />• Develop lessons plan, the most important concepts or skills that members need to understand by the end of the class.</p>
+	<p> • Deciding the teaching way that members will understand and how to maintain flexibility. </p>
+</div>
+
+
+<div class="details">
+	<p><img alt="" src="general.jpg" />Provides general supporting activities such as the administration of  documents; venue cleanliness; and transportation.</p>
+</div>
+
+<div class="details">
+	<p><img alt="" src="multimedia.jpg" />• Recording, editing, and encoding audio files.</p>
+	<p>• Responsible for updating website </p>
+</div>
+<br/>
+<p><b><a href="#flexcards1">Back to Profiles</a></b></p>
+
+
+		</div>
+
+
+	</div>
+
+
+		<!-- #EndEditable -->		
+			<div class="flexcards" id="flexcards1">
+		<div/>
+		<br/><br/>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	<div class="footer">
+		CT053-3-1(082022)<br/>
+		Asia Pacific University Technology And Innovation
+	</div>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

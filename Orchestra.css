@@ -1,0 +1,90 @@
+﻿/* Filename: Orchestra.css */
+body {
+	background-color: lightgray;
+	font-size: 110%;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	text-align: justify;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#660066;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#selectbar { 
+	border: 1px solid #452822; 
+	background-color: #FFFFCC; 
+	width: 1000px; 
+	margin-right: auto; 
+	margin-left: auto; 
+} 
+#title {  
+	height: 100px;  
+	font-weight: bold; 
+	font-style: italic;  
+	text-align: center;
+	color: brown;
+	font-size: 240%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 15px
+} 
+#nav { 
+	padding: 8px; 
+	border-top: solid 1px #452822; 
+	border-bottom: solid 1px #452822; 
+	background-color: #FCCD35; 
+} 
+#content-area{ 
+	padding: 20px; 
+} 
+#page-title { 
+	font-size: 160%; 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: chocolate;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	padding: padding-top 10px padding-bottom 10px
+} 
+#page-smalltitle { 
+	font-size: 120%; 
+	font-weight: bold;  
+	color: brown;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	padding: padding-top 10px padding-bottom 10px
+} 
+#page-content{ 
+	text-align: justify; 
+	padding: 14px; 
+} 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+#footer {
+	background-color: silver; 
+	height: 40px; 
+	text-align: center; 
+	font-size: 12px; 
+	padding-top: 10px;
+}

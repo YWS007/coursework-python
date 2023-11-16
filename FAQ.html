@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+<title>FAQ</title>
+<link href="master.css" rel="stylesheet" type="text/css" />
+
+<meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" charset="utf-8"></script>
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style1.css"/>
+<title>FAQ</title>
+</head>
+
+<body>
+<div class="header">
+		APU Orchestra Band
+	</div>
+	
+	<!-- menu -->
+	<div class="nav">
+		<ul>
+			<li><a href="default.html">Home</a></li>
+			<li><a href="aboutus.html">About Us <i class="fas fa-caret-down"></i></a>
+				<div class="dropdown_menu">
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="structure.html">Structure</a></li>
+						<li><a href="committee.html">Committee</a></li>
+					</ul>
+				</div>
+			</li>
+				
+			<li><a href="activities.html">Activities And Events <i class="fas fa-caret-down"></i></a>
+				<div class="dropdown_menu">
+					<ul>
+						<li><a href="societyactivities.html">Society Activities</a></li>
+						<li><a href="offlineevents.html">Offline Events</a></li>
+						<li><a href="onlineevents.html">Online Events</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="musicknowledge.html">Music Knowledge <i class="fas fa-caret-down"></i></a>
+				<div class="dropdown_menu">
+					<ul>
+						<li><a href="music.html">Music</a></li>
+						<li><a href="instrument.html">Instrument</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="goals.html">Goals</a></li>
+			<li><a href="achievement.html">Achievement</a></li>
+			<li><a href="joinus.html">Join Us</a></li>
+			<li><a href="FAQ.html">FAQ</a></li>
+		</ul>
+	</div>
+	
+	<!-- content -->
+	<div class="content">
+		<div class="page-title">
+		FAQ		</div><br/>
+		<div class="page-content">
+		<section id="faq">
+    <div class="container faq">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="accordions">
+
+              <!-- 1st accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item4">
+                  <h3>Can I learn more than 1 instrument? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item4">
+                  <p>
+                    Yes, but you will have to master the instrument that you chose before.                  </p>
+                </div>
+              </div>
+
+              <!-- 2nd accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item2">
+                  <h3>Is there any limit? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item2">
+                  <p>
+                    Yes attendents must be a student of APU                  </p>
+                </div>
+              </div>
+
+              <!-- 3rd accordion menu -->
+              <div class="accordion-item">
+
+  
+                <div class="accordion-title" data-tab="item3">
+                  <h3> I have no experience playing in an orchestra, can I still join <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item3">
+                  <p>
+                    Yes. The band welcomes all students regardless of experience and background.                  </p>
+                </div>
+              </div>
+
+              <!-- 4th accordion menu -->
+              <div class="accordion-item">
+                <div class="accordion-title" data-tab="item1">
+                  <h3>Do I have to pay a fee for the band? <i class="fa fa-chevron-down"></i></h3>
+                </div>
+                <div class="accordion-content" id="item1">
+                  <p>
+                    No,all instrument is supplied by APU but you are free to bring your own instrument                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>		<br/>
+  <script>
+ $(document).ready(function () {
+    $(".accordion-title").click(function (e) {
+      var accordionitem = $(this).attr("data-tab");
+      $("#" + accordionitem)
+        .slideToggle()
+        .parent()
+        .siblings()
+        .find(".accordion-content")
+        .slideUp();
+
+      $(this).toggleClass("active-title");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title")
+        .removeClass("active-title");
+
+      $("i.fa-chevron-down", this).toggleClass("chevron-top");
+      $("#" + accordionitem)
+        .parent()
+        .siblings()
+        .find(".accordion-title i.fa-chevron-down")
+        .removeClass("chevron-top");
+    });
+  });
+		</script>
+		</div>
+	</div>
+	
+	<!-- footer -->
+	<div class="footer">
+		CT053-3-1(082022)<br/>
+		Asia Pacific University Technology And Innovation
+	</div>
+
+</body>
+
+</html>
